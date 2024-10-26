@@ -1,0 +1,58 @@
+@font-face {
+    font-family: "Beardy";
+    src: url("homepage.ttf");
+}
+
+.lecturebox {
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 30em;
+    padding: 1%;
+    text-align: left;
+    background-color: #9ababc;
+    color: #285e62;
+    border: solid 0.3vw #285e62;
+    font-family: "Beardy";
+    z-index: 10000000000000000000;
+}
+
+.lecturebox img {
+    width: 1.2em;
+    display: initial;
+    margin: 0 1% 0 0;
+    border: none;
+}
+
+.lecturebox h1 {
+    color: inherit;
+    font-family: "Beardy";
+    font-size: 150%;
+    font-weight: 400;
+    line-height: 95%;
+    margin: 0;
+    border: none;
+}
+
+.lecturebox p {
+    color: inherit;
+    font-family: "Beardy";
+    font-size: initial;
+    font-weight: 100;
+    line-height: 95%;
+    margin: 0;
+    border: none;
+}
+
+.lecturebox a {
+    color: inherit;
+    color: #285e62;
+}
+
+.lecturebox button {
+    margin-top: 1vh;
+    color: inherit;
+    background-color: #9ababc;
+    border: solid 0.2vw #285e62;
+    font-family: "Beardy";
+}

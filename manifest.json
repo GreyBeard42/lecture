@@ -1,0 +1,28 @@
+{
+    "manifest_version": 3,
+    "name": "Lecture",
+    "description": "Lecture yourself with Lecture; A chrome extension that lectures you about the pages you visit.",
+    "version": "1.0",
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": "icon.png"
+    },
+
+    "permissions": [
+        "activeTab", 
+        "scripting"
+    ],
+    "content_scripts": [
+        {
+          "matches": ["<all_urls>"],
+          "js": ["content.js"],
+          "run_at": "document_idle"
+        }
+    ],
+    "web_accessible_resources": [
+        {
+            "resources": ["icon.png", "homepage.ttf", "content.css"],
+            "matches": ["<all_urls>"]
+        }
+    ]
+}
