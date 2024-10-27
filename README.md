@@ -21,7 +21,7 @@ A Chrome Extension that lectures you about the pages you visit.
 
 ---
 
-3. Go to chrome://extensions/ and toggle the `Developer mode` switch
+3. Go to `chrome://extensions/` and toggle the `Developer mode` switch
 
 ![preview](https://github.com/user-attachments/assets/44491db6-2005-4369-81db-4458b8f087ac)
 
@@ -33,9 +33,16 @@ A Chrome Extension that lectures you about the pages you visit.
 
 ---
 
-5. (bonus optional step) Pin the extension
+BONUS: Pin the extension
 
-![Screenshot (74)](https://github.com/user-attachments/assets/2a7bb91a-2759-423b-998c-cb88ac2edfb3)
+![preview](https://github.com/user-attachments/assets/2a7bb91a-2759-423b-998c-cb88ac2edfb3)
+
+---
+
+**REMOVE EXTENSION** Just go back to `chrome://extensions/` and either toggle or remove the extension:
+
+![preview](https://github.com/user-attachments/assets/1aad4000-564d-42ee-bbf1-f6294c31aed9)
+
 
 ---
 
