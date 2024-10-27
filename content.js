@@ -9,17 +9,15 @@ const pages = [
   {
     "url": 'github.com',
     "lectures": [
-      "Why are you wasting your life reading README.mb files?",
       "What a git; they're using github again.",
-      "Too many buttons, it'll fry your brains out!"
+      "Touch Grass."
     ]
   },
   {
     "url": "reddit.com",
     "lectures": [
       "Most of the information on reddit is negative or pointless. You rarely learn something and normally just consume other people's opinions.",
-      "People spend hours of their life screaming at people on reddit. Do you really want to be on this platform?",
-      "I've gonna admit, while I was writing this, looking at github, I accedentaly scrolled on it for 15 minutes. I saw some funny things, but social media can be very bad for your mental health. Close the tab buddy."
+      "People spend hours of their life screaming at people on reddit. Do you really want to be on this platform?"
     ]
   },
   {
@@ -36,11 +34,11 @@ const pages = [
       "People are awlays comparing themselves on instagram. It's really not healthy. Touch grass.",
       "People only post the best parts of their lives on the gram. Go talk to people irl.",
       "Those likes don't mean much. Touch grass",
-      "Go take a hike. Have you seen those national parks? Instagram doesn't matter, there's nature in the world!"
+      "Go take a hike. Have you seen those national parks? Instagram doesn't matter."
     ]
   },
   {
-    "url": "web.archive.org",
+    "url": "archive.org",
     "lectures": [
       "Wow I didn't think you were that old. Look at them, staring back at their childhood.",
       "Stop looking at the past, think about the future!"
@@ -106,10 +104,10 @@ const pages = [
     ]
   },
   {
-    "url": "amazon.com",
+    "url": "orteil.dashnet.org",
     "lectures": [
-      "STOP INPULSE BUYING!",
-      "Stop being lazy, go to a real store!"
+      "How many cookies do you have?!?",
+      "STOP CLICKING THE COOKIE"
     ]
   }
 ]
@@ -194,7 +192,6 @@ class Div {
 let div = new Div()
 window.addEventListener("load", () => {
   div.display()
-  console.log(div)
 })
 
 function close() {
